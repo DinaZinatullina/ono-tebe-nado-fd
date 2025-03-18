@@ -31,7 +31,6 @@
 }
 
 .header-address {
-    justify-self: end;
     text-align: right;
     max-width: 240px;
 }
