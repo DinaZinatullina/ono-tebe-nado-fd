@@ -129,9 +129,9 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px; /* Отступ снизу 50px */
+    padding-bottom: 50px; 
     padding-left: 50px;
-    margin-top: 342px;
+    margin-top: 241px;
     margin-right: 50px;
     color: #ffffff;
     position: relative;
@@ -241,6 +241,7 @@ address {
     max-width: 254px;
     margin: 0 auto;
     padding-top: 48px;
+    margin-bottom: 27px;
 }
 
 .card__text {
@@ -263,7 +264,6 @@ address {
 .lots__heading {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 27px; /* Расстояние от заголовка до карточек 27px */
     padding-left: 40px;
     text-transform: uppercase;
 }
