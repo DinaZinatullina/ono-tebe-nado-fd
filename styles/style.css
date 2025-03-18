@@ -74,8 +74,8 @@ address {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0 auto;
-    width: 1100px; 
-    height: 757px; 
+    width: 1100px;
+    height: 757px;
     z-index: 1;
 }
 
@@ -129,7 +129,7 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 61px;
+    padding-bottom: 50px; /* Отступ снизу 50px */
     padding-left: 50px;
     margin-top: 342px;
     margin-right: 50px;
@@ -263,14 +263,14 @@ address {
 .lots__heading {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 27px; /* Расстояние от заголовка до карточек 27px */
     padding-left: 40px;
     text-transform: uppercase;
 }
 
 .lots__look-more-link {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 30px; /* Расстояние от карточек до ссылки 30px */
     font-size: 20px;
     color: #000;
     text-decoration: underline;
@@ -280,7 +280,7 @@ address {
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 72px;
+    gap: 72px; /* Расстояние от иконки до заголовка и абзацев 72px */
     padding: 120px 24px 180px 24px;
     position: relative;
     max-width: 1100px;
@@ -355,6 +355,7 @@ address {
 .footer__address {
     font-style: normal;
     line-height: 1.5;
+    width: 98px; /* Ширина 98px */
 }
 
 .footer__address a {
