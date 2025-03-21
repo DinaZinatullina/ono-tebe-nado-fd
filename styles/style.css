@@ -13,13 +13,13 @@
     align-items: center;
     height: 293px;
     max-width: 1100px;
-    padding: 0 53px 0 50px;
+    padding: 0 50px;
+    position: relative;
 }
 
 .header__menu {
     justify-self: start;
     line-height: 22px;
-    align-items: center;
 }
 
 .header__logo {
@@ -32,7 +32,15 @@
 
 .header-address {
     text-align: left;
-    padding-left: 184px;
+    width: 240px;
+    height: 98px;
+    position: absolute;
+    top: 95px;
+    right: 50px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header__links-list {
@@ -45,15 +53,15 @@
 }
 
 .header__links-list-item {
-    margin-right: 13px;
+    padding-right: 13px;
 }
 
 .header__links-list-item:nth-child(2) {
-    margin-right: 12.52px;
+    padding-right: 12.52px;
 }
 
 .header__links-list-item:last-child {
-    margin-right: 0;
+    padding-right: 0;
 }
 
 .header__links-list-item_no-bullit {
@@ -100,8 +108,7 @@ address {
     letter-spacing: 30%;
     line-height: 115%;
     padding: 165px 50px 0 50px;
-    margin: 0 0 106px 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     height: auto;
     z-index: 3;
 }
@@ -130,12 +137,11 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px; 
-    padding-left: 50px;
-    margin-right: 50px;
-    margin-top: 61px;
+    position: absolute;
+    bottom: 50px; 
+    left: 50px;
+    right: 50px;
     color: #ffffff;
-    position: relative;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 28px;
@@ -267,11 +273,12 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
+    margin-bottom: 27px;
 }
 
 .lots__look-more-link {
     display: inline-block;
-    margin-top: 30px; /* Расстояние от карточек до ссылки 30px */
+    margin-top: 30px; 
     font-size: 20px;
     color: #000;
     text-decoration: underline;
@@ -281,7 +288,7 @@ address {
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 72px; /* Расстояние от иконки до заголовка и абзацев 72px */
+    gap: 72px; 
     padding: 120px 24px 180px 24px;
     position: relative;
     max-width: 1100px;
@@ -346,17 +353,22 @@ address {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    padding: 60px 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     color: #000;
     max-width: 1100px;
     margin: 0 auto;
-    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
 }
 
 .footer__address {
     font-style: normal;
+    text-align: left;
     line-height: 1.5;
-    width: 98px; /* Ширина 98px */
+    width: 264.57px;
+    margin-bottom: 82px;
 }
 
 .footer__address a {
@@ -370,6 +382,7 @@ address {
 
 .footer__menu {
     text-align: center;
+    margin-bottom: 82px;
 }
 
 .footer__menu-list {
@@ -404,11 +417,12 @@ address {
 
 .footer__social-list {
     list-style: none;
-    margin: 0;
+    top: 0;
     padding: 0;
     display: flex;
     justify-content: flex-end;
     gap: 48px;
+    margin-bottom: 131px;
 }
 
 .footer__social-list-item {
