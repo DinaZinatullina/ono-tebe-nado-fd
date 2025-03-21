@@ -273,12 +273,12 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    margin-bottom: 27px;
+    bottom: 27px;
 }
 
 .lots__look-more-link {
     display: inline-block;
-    margin-top: 30px; 
+    margin-top: 50px; 
     font-size: 20px;
     color: #000;
     text-decoration: underline;
@@ -417,7 +417,6 @@ address {
 
 .footer__social-list {
     list-style: none;
-    top: 0;
     padding: 0;
     display: flex;
     justify-content: flex-end;
