@@ -198,7 +198,7 @@ address {
 .card {
     text-decoration: none;
     height: 100%;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     box-sizing: border-box;
 }
 
@@ -273,7 +273,7 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    bottom: 27px;
+    margin-bottom: 27px;
 }
 
 .lots__look-more-link {
@@ -310,6 +310,8 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .about__logo-image {
@@ -325,13 +327,13 @@ address {
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 334px;
-    padding-top: 0;
+    padding-left: 32px;
+    margin-top: 43px;
 }
 
 .about__title {
-    left: 72px;
-    top: 136px;
     font-size: 40px;
+    top: 136px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
