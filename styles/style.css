@@ -186,6 +186,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    top: 27px;
 }
 
 .lots__card-list-item {
@@ -248,7 +249,7 @@ address {
     max-width: 254px;
     margin: 0 auto;
     padding-top: 48px;
-    margin-bottom: 27px;
+
 }
 
 .card__text {
@@ -273,7 +274,7 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    margin-bottom: 27px;
+    padding-bottom: 12px;
 }
 
 .lots__look-more-link {
