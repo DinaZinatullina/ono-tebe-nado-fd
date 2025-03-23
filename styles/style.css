@@ -9,9 +9,9 @@
 
 .header {
     display: grid;
-    grid-template-columns: 1fr min-content 1fr;
+    grid-template-columns: auto min-content 1fr;
     align-items: center;
-    height: 293px;
+    height: 293px
     max-width: 1100px;
     padding: 0 50px;
     position: relative;
@@ -20,6 +20,10 @@
 .header__menu {
     justify-self: start;
     line-height: 22px;
+    margin-right: 36.52px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18    line-height: 100em;
 }
 
 .header__logo {
@@ -32,15 +36,10 @@
 
 .header-address {
     text-align: left;
-    width: 240px;
-    height: 98px;
-    position: absolute;
-    top: 95px;
-    right: 50px;
-    bottom: 100px;
+    width: 240px;    left: 184px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    justify-self: end;
 }
 
 .header__links-list {
@@ -72,6 +71,9 @@ address {
     font-style: normal;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;    line-height: 24.3px;
 }
 
 .cover {
@@ -85,6 +87,10 @@ address {
     width: 1100px;
     height: 757px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 50px;
 }
 
 .overlay {
@@ -105,10 +111,11 @@ address {
     font-weight: 700;
     font-size: 100px;
     text-transform: uppercase;
-    letter-spacing: 30%;
+    letter-spacing: 0.3em;
     line-height: 115%;
     padding: 165px 50px 0 50px;
     margin: 0 0 20px 0;
+    padding-bottom: 106px;
     height: auto;
     z-index: 3;
 }
@@ -129,7 +136,6 @@ address {
     display: block;
     text-align: right;
     margin-top: 20px;
-    padding-bottom: 106px;
     margin-right: 0;
 }
 
@@ -137,7 +143,6 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     bottom: 50px;
     left: 50px;
     right: 50px;
@@ -146,12 +151,14 @@ address {
     font-size: 22px;
     line-height: 28px;
     z-index: 3;
+    padding: 0 50px;
 }
 
 .cover__description-text {
     position: relative;
     font-weight: 400;
-    word-spacing: 10px;
+    word-spacing: 20px;
+    white-space: nowrap;
     align-items: center;
 }
 
@@ -165,9 +172,10 @@ address {
     font-weight: 500;
     line-height: normal;
     color: #fff;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .lots {
@@ -185,12 +193,10 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    top: 27px;
 }
 
 .lots__card-list-item {
     width: calc((100% - 50px) / 3);
-    height: 596px;
     padding: 0;
     margin: 0;
 }
@@ -202,9 +208,7 @@ address {
     box-sizing: border-box;
 }
 
-.card_type_film,
-.card_type_book,
-.card_type_picture {
+.card-content {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -212,33 +216,27 @@ address {
     background-color: #fff;
     color: #000;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card__title {
     position: relative;
     z-index: 2;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
@@ -253,7 +251,7 @@ address {
 .card__text {
     position: relative;
     z-index: 2;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -322,7 +320,6 @@ address {
 .about__column {
     display: flex;
     width: 693px;
-    height: 449px;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 334px;
@@ -332,7 +329,6 @@ address {
 
 .about__title {
     font-size: 40px;
-    top: 136px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
@@ -432,7 +428,6 @@ address {
 .footer__social-link {
     display: block;
     width: 48px;
-    height: 48px;
 }
 
 .footer__social-icon {
