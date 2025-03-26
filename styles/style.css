@@ -116,8 +116,8 @@ address {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     line-height: 115%;
-    padding: 165px 50px 106px 50px;
-    margin: 0 auto;
+    padding: 165px 50px 0px 50px;
+    margin: 0 auto 106px;
     z-index: 3;
 }
 
@@ -194,11 +194,12 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    justify-content: center;
 }
 
 .lots__card-list-item {
     width: calc((100% - 50px) / 3);
-    max-width: 596px;
+    max-height: 596px;
     padding: 0;
     margin: 0;
 }
@@ -272,7 +273,7 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    padding-bottom: 10.9px;
+    padding-bottom: 10.8px;
 }
 
 .lots__look-more-link {
