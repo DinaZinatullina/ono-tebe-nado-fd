@@ -76,7 +76,7 @@ address {
     padding: 0;
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 18px;    
+    font-size: 18px;
     line-height: 24.3px;
 }
 
@@ -180,7 +180,7 @@ address {
 }
 
 .lots {
-    padding: 180px 24px 120px 24px;
+    padding: 180px 24px 110px 24px;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -271,7 +271,7 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    padding-bottom: 12px;
+    padding-bottom: 11px;
 }
 
 .lots__look-more-link {
