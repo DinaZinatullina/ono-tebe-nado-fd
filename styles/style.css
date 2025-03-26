@@ -25,16 +25,18 @@
     justify-self: center;
     display: block;
     width: 148px;
-    padding-top: 93.16px;
-    padding-bottom: 95.19px;
+    padding-top: 92px;
+    padding-bottom: 96px;
 }
 
 .header-address {
     text-align: left;
-    width: 240px;    left: 184px;
+    width: 240px;
+    left: 184px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    justify-self: end;
+    justify-content: center;
+    justify-self: end;
 }
 
 .header__links-list {
@@ -68,7 +70,8 @@ address {
     padding: 0;
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 18px;    line-height: 24.3px;
+    font-size: 18px;    
+    line-height: 24.3px;
 }
 
 .cover {
