@@ -1,5 +1,4 @@
 .content-section {
-    margin: 0 auto;
     box-sizing: border-box;
     width: 100%;
     max-width: 1100px;
@@ -11,7 +10,6 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: start;
-    max-width: 1100px;
     padding: 0 50px;
     position: relative;
     margin: 0 auto;
@@ -19,10 +17,10 @@
 
 .header__menu {
     justify-self: start;
-    line-height: 22px;
-    top: 133px;
     position: relative;
-    align-self: start;
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 100%;
 }
 
 .header__logo {
@@ -43,7 +41,6 @@
     justify-self: end;
     position: relative;
     align-self: start;
-    top: 95px;
     margin-top: 95px;
 }
 
@@ -90,7 +87,6 @@ address {
     background-repeat: no-repeat;
     margin: 0 auto;
     width: 1100px;
-    height: 757px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -146,9 +142,6 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    bottom: 50px;
-    left: 50px;
-    right: 50px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 22px;
@@ -201,7 +194,6 @@ address {
 
 .lots__card-list-item {
     width: calc((100% - 50px) / 3);
-    max-height: 596px;
     min-height: 596px;
     padding: 0;
     margin: 0;
@@ -300,9 +292,11 @@ address {
 }
 
 .about__logo-container {
-    position: absolute;
-    top: 35px;
-    left: 71px;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
 }
 
 .about__logo {
@@ -313,8 +307,7 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 0;
 }
 
 .about__logo-image {
@@ -324,13 +317,11 @@ address {
 }
 
 .about__column {
-    display: flex;
-    width: 693px;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 334px;
+    grid-column: 2;
     padding-left: 32px;
-    margin-top: 43px;
+    margin-top: 100px;
+    align-self: center;
+    width: auto;
 }
 
 .about__title {
