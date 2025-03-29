@@ -268,7 +268,7 @@ address {
     font-weight: 700;
     padding-left: 40px;
     text-transform: uppercase;
-    padding-bottom: 10.8px;
+    padding-bottom: 10.5px;
 }
 
 .lots__look-more-link {
@@ -283,9 +283,7 @@ address {
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 72px;
     padding: 50px 24px 180px 24px;
-    position: relative;
     max-width: 1100px;
     margin: 0 auto;
     align-items: start;
@@ -297,6 +295,8 @@ address {
     justify-content: center;
     align-items: start;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .about__logo {
@@ -307,6 +307,8 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .about__logo-image {
@@ -318,8 +320,8 @@ address {
 .about__column {
     grid-column: 2;
     margin-top: 100px;
-    align-self: center;
-    width: auto;
+    padding: 0;
+    align-self: start;
 }
 
 .about__title {
